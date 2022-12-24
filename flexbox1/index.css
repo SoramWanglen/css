@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 220px;
+    height:200px;
+    align-items:center;
+}
+
+.container li{
+   flex-grow: 2;
+   border:1px solid red;
+   display: flex;
+   align-items: center;
+   order:5
+}
+
+#item{
+    align-self: flex-start;
+}
